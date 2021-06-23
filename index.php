@@ -1,8 +1,10 @@
 <?php
 include_once '../lib/cookie_check.php';
 include_once '../index.php';
-if (!in_array("garage", $capabilities))
-    header("Location: /");
+if (!in_array("garage", $capabilities)) {
+//    header("Location: /");
+    echo "garage not in capabilities";
+}
 ?>
 <html>
 <head>
