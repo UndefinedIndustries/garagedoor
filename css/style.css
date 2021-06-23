@@ -1,0 +1,17 @@
+.mybutton {
+    width: 145px;
+    height: 60px;
+    font-size: 1.25em;
+}
+.fix-bars {
+    font-size: 22px;
+    padding: 19px;
+}
+
+#menunav, #menunav a {
+    height: 38px!important;
+    text-align: center;
+    vertical-align: bottom;
+    display: table-cell;
+    vertical-align: middle;
+}
